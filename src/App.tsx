@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
-import { Home } from './components/home'
-import { Login } from './components/login'
-import { Admin } from './components/admin'
-import { Social } from './components/social'
+import { Home } from './pages/home'
+import { Login } from './pages/login'
+import { Admin } from './pages/admin'
+import { Social } from './pages/social'
 
   const router = createBrowserRouter([
     {
